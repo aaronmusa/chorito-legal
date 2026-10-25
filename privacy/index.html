@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Chorito</title>
+<meta name="description" content="What Chorito stores about you and your household, who can see it, and how to delete it.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal: #B8382A;
+    --lime: #F5C400;
+    --ink: #1F1614;
+    --paper: #FBF8F4;
+    --muted: #6B5A55;
+    --hairline: #E8E0DB;
+    --surface: #FFFFFF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --teal: #F07A6A;
+      --ink: #F5EDEB;
+      --paper: #1E1513;
+      --muted: #B39A94;
+      --hairline: #3D2B27;
+      --surface: #2A1D1A;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 20px 72px;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Archivo, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 640px; margin: 0 auto; }
+  header { padding: 56px 0 8px; }
+  .eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--teal);
+    margin: 0 0 10px;
+  }
+  h1 { font-size: 34px; font-weight: 800; line-height: 1.15; margin: 0 0 8px; letter-spacing: -0.02em; }
+  h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--teal);
+    margin: 40px 0 10px;
+    letter-spacing: -0.01em;
+  }
+  .effective { color: var(--muted); font-size: 15px; margin: 0; }
+  .lede {
+    font-size: 19px;
+    margin: 28px 0 0;
+    padding: 20px 22px;
+    background: var(--surface);
+    border: 1px solid var(--hairline);
+    border-radius: 16px;
+  }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  a { color: var(--teal); text-underline-offset: 2px; }
+  strong { font-weight: 600; }
+  hr { border: 0; border-top: 1px solid var(--hairline); margin: 48px 0 24px; }
+  footer { color: var(--muted); font-size: 15px; }
+  footer a { font-weight: 500; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">Chorito</p>
+    <h1>Privacy Policy</h1>
+    <p class="effective">Effective 26 October 2026</p>
+  </header>
+
+  <p class="lede"><strong>Chorito keeps your household&rsquo;s chores on a server I run, so everyone in the household sees the same thing.</strong> It stores only what the app needs to work, shares it only with the people in your household, and never sells it or uses it for advertising. There are no ads and no analytics.</p>
+
+  <h2>Who runs it</h2>
+  <p>Chorito is made by Aaron Musa, an independent developer. Your data is stored with <a href="https://supabase.com">Supabase</a>, which hosts Chorito&rsquo;s database, sign-in and photo storage on my behalf. Supabase processes it only to run the service for me.</p>
+
+  <h2>What Chorito stores</h2>
+  <ul>
+    <li><strong>Your account</strong> — when you sign in with Apple: a user ID from Apple, the name you confirm, and the email address Apple shares with the app (which can be Apple&rsquo;s private relay address if you choose to hide yours).</li>
+    <li><strong>Your household</strong> — its name, timezone and invite code, who belongs to it, and each member&rsquo;s role (manager, co-manager or member).</li>
+    <li><strong>Chores and what happens to them</strong> — chore names, notes, schedules, points, who each one is assigned to, when it was marked done, review decisions and their reasons, requests to take, swap or reschedule a chore, points gained and lost, and the monthly standings.</li>
+    <li><strong>Photos</strong> — if a chore asks for proof, the photo you take when you mark it done.</li>
+    <li><strong>Comments, mentions and nudges</strong> — what you write on chores, and reminders people send each other.</li>
+    <li><strong>Notifications</strong> — a record of what you were told about and whether you&rsquo;ve read it, plus the two notification settings you can change.</li>
+    <li><strong>A push token</strong> — the address Apple gives the app so it can send notifications to your iPhone. It identifies the app on your device, not you.</li>
+  </ul>
+
+  <h2>Who can see it</h2>
+  <p>The members of your household see each other&rsquo;s names, chores, photos, comments, points and decisions. That is the point of the app. Managers and co-managers also see requests waiting on them and can approve or reject work. Nobody outside your household can see any of it; the database itself enforces this, not just the app.</p>
+  <p>If you belong to more than one household, each household sees only what happens inside it.</p>
+
+  <h2>Crash reports</h2>
+  <p>Chorito uses Firebase Crashlytics, from Google, to tell me when the app crashes so I can fix it. A crash report contains the technical details of the crash, your device model and iOS version, the app version, and a random identifier for this installation of the app. It does not contain your name, email, household or chores.</p>
+
+  <h2>What Chorito does not do</h2>
+  <ul>
+    <li>No advertising, and no advertising or tracking SDKs.</li>
+    <li>No analytics beyond crash reports.</li>
+    <li>No selling or renting your data, and no sharing it with anyone except the services above that run Chorito.</li>
+    <li>No tracking you across other companies&rsquo; apps or websites.</li>
+    <li>No location, contacts, microphone or health data.</li>
+  </ul>
+
+  <h2>How long it is kept</h2>
+  <p>Your data is kept while you have an account. If you leave a household, its history keeps the chores you did and the points you earned, because the household&rsquo;s past months and year board would otherwise change under everyone else; your access to it ends.</p>
+
+  <h2>Deleting your account</h2>
+  <p>You can delete your account from the app&rsquo;s settings, or by emailing me at <a href="mailto:j.aaronmusa@gmail.com">j.aaronmusa@gmail.com</a> from the address on your account. Deleting it removes your account, your profile, your push token and your photos, and takes you out of every household. Chores and points you recorded stay in each household&rsquo;s history without your name attached.</p>
+
+  <h2>Children</h2>
+  <p>Chorito is meant to be set up by adults. Children can be members of a household that an adult manages, but the app is not directed at children under 13 and I do not knowingly collect their personal information outside a household an adult set up.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version is posted here with a new effective date. If a change affects what Chorito stores or who can see it, the app will tell you before it applies.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or requests about your data: <a href="mailto:j.aaronmusa@gmail.com">j.aaronmusa@gmail.com</a>.</p>
+
+  <hr>
+  <footer>
+    <p><a href="../">Chorito</a> &middot; <a href="../support/">Support</a> &middot; <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (EULA)</a></p>
+  </footer>
+</main>
+</body>
+</html>
